@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report, roc_curve, auc, precision_rec
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.model_selection import train_test_split
 
-dataset = pd.read_csv('clean training data.csv')
+dataset = pd.read_csv('clean_training_data.csv')
 
 string_cols = dataset.select_dtypes(include=['object', 'string']).columns
 label_encoders = {}
