@@ -11,7 +11,7 @@ from sklearn.metrics import (
 )
 import pickle as pkl
 
-dataset = pd.read_csv('clean training data.csv')
+dataset = pd.read_csv('clean_training_data.csv')
 
 string_cols = dataset.select_dtypes(include=['object', 'string']).columns
 label_encoders = {}
