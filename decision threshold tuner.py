@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 
-dataset = pd.read_csv('clean training data.csv')
+dataset = pd.read_csv('clean_training_data.csv')
 
 string_cols = dataset.select_dtypes(include=['object', 'string']).columns
 label_encoders = {}
